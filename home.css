@@ -1,5 +1,6 @@
 header{
   background-color: #333;
+<<<<<<< HEAD
 }
 h1{
 
@@ -7,13 +8,25 @@ h1{
   padding: 10px;
   text-align: center;
   font-size: 50px;
+  margin-top: 0;
 }
+
+#title{
+  color:blue;
+  text-align: right;
+  padding-right: 50px;
+  font-size: 30px;
+  margin-top: 0;
+  font-family: sans-serif;
+}
+
 ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
   background-color: #333;
 }
+
 li{
   float: left;
 }
@@ -24,7 +37,49 @@ li a{
   background-color: #333;
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
 }
+
 li a:hover{
   background-color: black;
+  font-weight: bold;
+  padding-left: 30px;
 }
+
+
+#temp_graph{
+	width: 600px;
+	height: 300px;
+	background: blue;
+  opacity: 0.5;
+  float: left;
+  margin-left: 40px;
+}
+
+#temp_graph_text{
+  position: relative;
+  left: 40px;
+}
+
+#temp_bubble {
+   width: 550px;
+   height: 300px;
+   background: red;
+   position: relative;
+   left: 800px;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#temp_bubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+>>>>>>> 85013a0d54d3ca558519a04e12a299470fcd08a8
